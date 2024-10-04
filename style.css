@@ -4,20 +4,29 @@
 }
 body{
     font-family:"roboto",sans-serif ;
-    background-color: rgb(91, 85, 85);
+    background-color: rgb(246, 234, 234);
+    opacity: 0.9;
+    background-image: url(https://images.axios.com/LMIqfljcccTEeaFROP8CWgX2t_Q=/1920x1080/smart/2022/07/29/1659122511631.jpg?w=1920);
+
 }
 
 nav{
-    background-color: rgb(8, 7, 11);
+    background-color: rgb(9, 8, 9);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 6vh;
+    height: 10vh;
+    opacity: 0.8;
 }
 
 .logo{
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-right: 500px;
+
+    && img{
+        width: 80px;
+    }
 }
 
 ul{
@@ -31,13 +40,15 @@ a{
 }
 
 a:hover{
-    opacity: 0.7;
+    opacity: 0.9;
+    text-shadow: 0 0 0.9am;
 }
 
 ul{
     color: white;
     list-style: none;
-    gap: 30px;
-    letter-spacing: 2px;
+    gap: 70px;
+    letter-spacing: 3px;
+    align-items: center;
 }
 
