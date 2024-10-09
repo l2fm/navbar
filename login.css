@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to right, rgb(106, 110, 114), black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to top, rgb(129, 136, 143),rgb(173, 173, 182));
+    margin-top: 60px;
+    border-radius: 10px;
+}
